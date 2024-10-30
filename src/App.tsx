@@ -1,5 +1,11 @@
-const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-};
+import Select from "./components/select";
+
+function App() {
+  return (
+    <div className="h-screen flex items-center justify-center">
+      <Select />
+    </div>
+  );
+}
 
 export default App;
